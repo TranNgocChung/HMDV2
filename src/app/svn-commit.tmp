@@ -1,0 +1,12 @@
+
+--This line, and those below, will be ignored--
+
+A    modules/bacsikham
+A    modules/bacsikham/bacsikham-routing.module.ts
+A    modules/bacsikham/bacsikham.component.css
+A    modules/bacsikham/bacsikham.component.html
+A    modules/bacsikham/bacsikham.component.ts
+A    modules/bacsikham/bacsikham.module.ts
+A    modules/bacsikham/bacsikham.service.ts
+A    modules/bacsikham/model.ts
+
