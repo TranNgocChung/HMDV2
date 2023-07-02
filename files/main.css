@@ -177,7 +177,7 @@ ul {
 @media (max-width: 900px) {
     .header_logo_mobile {
     height: 32px;
-    width: 32px
+    width: 32px !important
 }
 } 
 .header_top {
