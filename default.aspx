@@ -97,7 +97,7 @@
         <div class="header fixed-top bg-white" style="">
             <div class="header_top">
                 <div class="header_top-box container d-lg-flex d-sm-block text-sm-center">
-                    <h2 class="header_top-box-title">CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ HMD VIỆT NAM</h2>
+                    <h2 class="header_top-box_title">CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ HMD VIỆT NAM</h2>
                     <div class="header_top-right pb-sm-1">
                         <div class="ButtonSearch">
                             <div class="form-control">

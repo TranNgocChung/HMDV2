@@ -190,7 +190,7 @@ ul {
     align-items: center;
 }
 
-.header_top-box-title {
+.header_top-box_title {
     font-size: 26px;
     line-height: 50px;
     color: var(--text-white);
@@ -198,16 +198,17 @@ ul {
     font-weight: 500;
     margin: 0;
 }
-@media (max-width: 900px) {
-    .header_top-box-title_mobile {
-    font-size: 26px;
+@media (max-width:900px) {
+
+.header_top-box_title {
+    font-size: 10px;
     line-height: 50px;
     color: var(--text-white);
     font-family: var(--font-robo) !important;
-    font-weight: 200;
+    font-weight: 500;
     margin: 0;
 }
-} 
+}
 .header_top-right-find {
     background-color: #004991;
     color: var(--text-white);
