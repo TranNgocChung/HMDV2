@@ -201,7 +201,7 @@ ul {
 @media (max-width:900px) {
 
 .header_top-box_title {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 50px;
     color: var(--text-white);
     font-family: var(--font-robo) !important;
