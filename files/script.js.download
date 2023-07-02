@@ -1,0 +1,91 @@
+$(document).ready(function() {
+	//WOW
+	var wow = new WOW(
+	  {
+	    boxClass:     'wow',      // animated element css class (default is wow)
+	    animateClass: 'animated', // animation css class (default is animated)
+	    offset:       0,          // distance to the element when triggering the animation (default is 0)
+	    mobile:       true,       // trigger animations on mobile devices (default is true)
+	    live:         true,       // act on asynchronously loaded content (default is true)
+	    callback:     function(box) {
+	      // the callback is fired every time an animation is started
+	      // the argument that is passed in is the DOM node being animated
+	    },
+	    scrollContainer: null // optional scroll container selector, otherwise use window
+	  }
+	);
+	wow.init();
+
+	$(window).scroll(function(){
+		$('#header, #main').removeClass('active');
+		if($(this).scrollTop() > 0)
+			$('#header, #main').addClass('active');
+	});
+
+	$('#menu ul .home a').click(function(e){
+		e.preventDefault();
+		var data = $(this).attr('data');
+    	var target = "#" + data;
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 1000);  
+	});
+
+	$('#menu-mobile ul .home a').click(function(e){
+		e.preventDefault();
+		var data = $(this).attr('data');
+    	var target = "#" + data;
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 1000);  
+	});
+
+	$('.icon-menu').click(function(event) {
+		event.stopPropagation();
+		$('#menu-mobile').addClass('active');
+		$('.darknight').addClass('active');
+	});
+
+	$('html').click(function(event) {	
+		if($('#menu-mobile').hasClass('active')){
+			$('#menu-mobile').removeClass('active');
+			$('.darknight').removeClass('active');
+		}	
+	});
+
+	window.sr = ScrollReveal();
+	sr.reveal('.foo', {
+		duration: 1500,
+		// goc bay
+		distance: '50px', 
+		// 
+		scale: 0.5,
+		reset: true,
+		useDelay: 'once',
+		mobile: false,
+		linear: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+		opacity: 1,
+	});
+	sr.reveal('.free', {
+		duration: 2500,
+		// goc bay
+		distance: '-50px', 
+		// 
+		scale: 0.5,
+		reset: true,
+		useDelay: 'once',
+		mobile: false,
+		linear: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+		opacity: 1,
+	});
+	//add by hanhdt
+    $('#click-show-baoloi').click(function(){    
+        $('.form-baoloi').toggle(500);
+    });
+    $('#click-show-kichhoat').click(function(){
+        $('.form-kichhoat').toggle(500);
+    });
+    $('#click-show-khuyenmai').click(function(){
+        $('.form-khuyenmai').toggle(500);
+    });
+});
