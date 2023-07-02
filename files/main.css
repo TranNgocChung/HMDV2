@@ -717,6 +717,9 @@ p img {
 .content_4-box-bot-first > div {
     /*max-height: 160px;*/
 }
+.content_4-box-bot-firstx > .col-md-4:nth-child(2) {
+    padding: 0 35px;
+}
 /* Content 5 */
 .content_3-head {
     justify-content: space-between;

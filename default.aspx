@@ -8,7 +8,7 @@
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./files/logo32.png" style="width: 32px; height: 32px" >
+        <link rel="shortcut icon" href="./files/logo32.png" style="width: 32px; height: 32px">
         <title>CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ HMD VIỆT NAM</title>
         <link href="./files/main.css" rel="stylesheet">
         <link href="./files/responsive.css" rel="stylesheet">
@@ -97,7 +97,7 @@
         <div class="header fixed-top bg-white" style="">
             <div class="header_top">
                 <div class="header_top-box container d-lg-flex d-sm-block text-sm-center">
-                    <h2 class="header_top-box_title">CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ HMD VIỆT NAM</h2>
+                    <h2 class="header_top-box_title header_top-box_title_mobile">CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ HMD VIỆT NAM</h2>
                     <div class="header_top-right pb-sm-1">
                         <div class="ButtonSearch">
                             <div class="form-control">
@@ -130,7 +130,7 @@
                     <div class="header_bot-box row d-flex">
                         <div class="col-md-3 col-sm-9 header_bot-box-left">
                             <a href="./default.aspx">
-                                <img src="./files/logo32.png" class="header_logo header_logo_mobile"  alt="">
+                                <img src="./files/logo32.png" class="header_logo header_logo_mobile" alt="">
                             </a>
                         </div>
                         <div class="col-md-9 col-sm-3 header_bot-box-right d-sm-flex justify-content-sm-end">
@@ -434,11 +434,12 @@
                     <p>CÁC DỊCH VỤ</p>
                 </div>
                 <div class="content_4-box-bot">
-                    <div class="row content_4-box-bot-first">
+                    <div class="row content_4-box-bot-firstx">
 
                         <div class="col-lg-4 col-md-6 col-sm-12 d-flex content_4-padding">
+
                             <a class="titleblue" href="./?AspxAutoDetectCookieSupport=1#">
-                                <!-- <a class="titleblue" href="/tin-tuc/TOASOANHOITU"> -->
+
                                 <div class="content_4-bot-title">
                                     <div class="content_4-bot-img">
                                         <a class="blacktitle" href="./?AspxAutoDetectCookieSupport=1#">
@@ -460,8 +461,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 d-flex content_4-padding">
 
                             <a class="titleblue" href="./?AspxAutoDetectCookieSupport=1#">
-                                <!-- <a class="titleblue" href="/tin-tuc/TOASOANHOITU"> -->
-                                <div class="content_4-bot-title">
+                               
+                                 <div class="content_4-bot-title">
                                     <div class="content_4-bot-img">
                                         <a class="blacktitle" href="./?AspxAutoDetectCookieSupport=1#">
                                             <img class="content_2-img-right" src="./files/inlad.png" alt="Image" />
@@ -482,8 +483,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 d-flex content_4-padding">
 
                             <a class="titleblue" href="./?AspxAutoDetectCookieSupport=1#">
-                                <!-- <a class="titleblue" href="/tin-tuc/TOASOANHOITU"> -->
-                                <div class="content_4-bot-title">
+                               
+                                 <div class="content_4-bot-title">
                                     <div class="content_4-bot-img">
                                         <a class="blacktitle" href="./?AspxAutoDetectCookieSupport=1#">
                                             <!-- <a class="blacktitle" href="/tin-tuc/TOASOANHOITU"> -->
@@ -503,8 +504,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 d-flex content_4-padding">
 
                             <a class="titleblue" href="./?AspxAutoDetectCookieSupport=1#">
-                                <!-- <a class="titleblue" href="/tin-tuc/TOASOANHOITU"> -->
-                                <div class="content_4-bot-title">
+                              
+                                 <div class="content_4-bot-title">
                                     <div class="content_4-bot-img">
                                         <a class="blacktitle" href="./?AspxAutoDetectCookieSupport=1#">
                                             <!-- <a class="blacktitle" href="/tin-tuc/TOASOANHOITU"> -->
